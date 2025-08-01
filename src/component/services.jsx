@@ -10,14 +10,14 @@ function Services() {
       buttonlebel: "view more",
     },
     {
-      id: 1,
+      id: 2,
       title: "web development",
       description:
         " We offer professional web development services to help you build fast,responsive, and user-friendly websites",
       buttonlebel: "view more",
     },
     {
-      id: 1,
+      id: 3,
       title: "web development",
       description:
         " We offer professional web development services to help you build fast,responsive, and user-friendly websites",

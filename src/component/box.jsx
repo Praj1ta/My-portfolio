@@ -1,7 +1,7 @@
 function Box({ id, title, description, buttonlebel }) {
   return (
     <div className="bg-gray-300 flex flex-col items-center justify-between gap-2 p-4  w-[400px]  rounded-2xl ">
-      <i className="fa-solid fa-user text-3xl"></i>
+      
       <p className="text-2xl text-red-600">{title}</p>
 
       <p className="text-xl md:text-2xl text-gray-700">{description}</p>

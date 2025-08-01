@@ -7,9 +7,10 @@ import Home from './component/Home.jsx'
 import About from './component/about.jsx'
 import Skill from './component/skill.jsx'
 import Connect from './component/connect.jsx'
-import Projects from './component/project.jsx'
+import Projects from './component/ProJects.jsx'
 import Services from './component/services.jsx'
 import Footer from './component/footer.jsx'
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
    <Home/>
    <About/>
    <Skill/>
+   
    <Projects/>
    <Services/>
    <Connect/>
