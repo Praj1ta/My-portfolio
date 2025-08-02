@@ -2,7 +2,7 @@
 
 const Footer = () => (
   <footer
-    className="  text-gray-800" >
+    className=" px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-800" >
     
     
     <hr />
@@ -10,7 +10,7 @@ const Footer = () => (
     <div className="space-x-6  text-lg flex p-5 justify-center ">
           
  
- <div className="flex justify-center md:justify-start space-x-5 pt-3 text-gray-600 text-xl">
+ <div className="flex justify-center md:justify-start space-x-5 pt-3 text-gray-800 text-xl">
         <i class="fa-brands fa-linkedin hover:text-blue-500 cursor-pointer"></i>
         <i className="fa-brands fa-facebook hover:text-blue-500 cursor-pointer"></i>
         <i className="fa-brands fa-x-twitter hover:text-black cursor-pointer"></i>

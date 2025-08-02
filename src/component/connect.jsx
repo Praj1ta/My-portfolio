@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { PrimaryButton } from "./button";
+import { PrimaryButton, SecondaryButton } from "./button";
 
 const Contact = () => (
   <div id="connect"
-   className="h-screen p-8 gap-10">
+   className="px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min:h-screen p-8 gap-10">
    <h1 className="text-center text-4xl md:text-6xl font-semibold text-gray-800 mb-12">
         Get in touch
       </h1>
@@ -30,13 +30,14 @@ const Contact = () => (
         />
         <div className="space-x-5 ">
       <PrimaryButton label="Send Message" />
+      <SecondaryButton label="Hire me"/>
 
     </div>
       </form>
     </div>
 
  
-    <div className="md:w-1/2 w-full space-y-6 p-19">
+    <div className="md:w-1/2 w-full space-y-6 pt-19 pl-32">
       <div className="flex items-center gap-4">
         <FontAwesomeIcon
           icon={faPhone}

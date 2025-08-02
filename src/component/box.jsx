@@ -1,6 +1,6 @@
 function Box({ id, title, description, buttonlebel }) {
   return (
-    <div className="bg-gray-300 flex flex-col items-center justify-between gap-2 p-4  w-[400px]  rounded-2xl ">
+    <div className="bg-white p-4 rounded-lg shadow-md text-center ">
       
       <p className="text-2xl text-red-600">{title}</p>
 

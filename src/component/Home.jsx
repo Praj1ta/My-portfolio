@@ -1,7 +1,9 @@
 import { PrimaryButton } from "./button";
-const Home = () => (
+const Home = () =>
+  (
+
   <main id="home" 
-  className="flex flex-col items-center justify-evenly h-screen md:flex-row md:space-y-0 ">
+  className="px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 flex flex-col items-center justify-evenly min:h-screen md:flex-row md:space-y-0 ">
     
     
     <div className="mt-24 md:mt-36 space-y-5 text-center md:text-left">
@@ -30,7 +32,9 @@ const Home = () => (
 
     
     <div className="flex flex-col items-center mt-10 md:mt-0">
-      <div className="bg-black rounded-full w-64 h-64 shadow-lg hover:scale-105 transition-transform duration-300"></div>
+      <div >
+        <img className=" rounded-full w-64 h-64 shadow-lg hover:scale-105 transition-transform duration-300" src="/girlimge.png" alt="" />
+      </div>
       <p className="max-w-md text-justify text-gray-700 text-sm mt-6 px-6">
         “Hi! I’m Prajita Bhattarai, a budding front-end developer passionate
         about building interactive and user-friendly web interfaces.”

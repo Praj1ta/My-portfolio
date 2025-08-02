@@ -11,14 +11,14 @@ function Services() {
     },
     {
       id: 2,
-      title: "web development",
+      title: "ui/ux",
       description:
         " We offer professional web development services to help you build fast,responsive, and user-friendly websites",
       buttonlebel: "view more",
     },
     {
       id: 3,
-      title: "web development",
+      title: "react",
       description:
         " We offer professional web development services to help you build fast,responsive, and user-friendly websites",
       buttonlebel: "view more",
@@ -27,11 +27,11 @@ function Services() {
 
   return (
     <div 
-    className=" p-12 px-10 h-screen" id="services">
-      <p className="text-center text-4xl md:text-6xl font-semibold text-gray-800 mb-12 pb-9">
+    className=" px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min:h-screen  md:p-16 " id="services">
+      <p className="text-center text-4xl md:text-6xl font-semibold text-gray-800 mb-20 ">
         Our Services
       </p>
-      <div className=" flex justify-between gap-6 ">
+      <div className=" grid gap-6 md:grid-cols-3">
         {services.map((services) => (
           <Box
             key={services.id}
